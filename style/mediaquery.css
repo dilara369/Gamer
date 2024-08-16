@@ -1,0 +1,28 @@
+@media screen and (max-width:576px) {
+    nav {
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .playsection {
+         flex-direction: column-reverse;
+    }
+    .nav-left, .nav-right {
+        align-items: center;
+        flex-direction: column;}
+        .rightside {
+            margin-bottom: 20px; }
+            
+.online{
+    grid-template-areas:"a"
+    "b"
+    "c"
+    "d"  ;
+    width:50%; 
+    margin: 0 auto;
+
+}
+.gameimg{
+    width: 50vw;  
+  }
+}
+/* section & img er width same na dile center ey thakenah */

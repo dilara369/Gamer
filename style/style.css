@@ -1,0 +1,130 @@
+.navcontainer{
+    box-shadow:0px 4px 6px rgba(0, 0, 0, 0.05);  
+    /* we want to bring to side in middle thats why max-width & make a new container */
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+a{
+text-decoration: none;
+color: rgb(53, 52, 52);
+font-size: 1rem;
+}
+.nav-left , .nav-right{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+.nav-right > button{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.1);
+    border: none;
+    padding: 10px 15px;
+}
+.rightside{
+    margin-left: 15px;
+}
+.nav-left>img{
+    width: 50px;
+    height: auto;
+    margin-left: 10px;
+}
+.nav-left> h4 > span{
+    color: rgb(221, 123, 139);
+}
+.nav-left > h4 {
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+.youtube{
+    color: red;
+}
+/* play section  */
+.playsection{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    /* or  width: 75%; */
+    margin: 0 auto;
+    align-items: center;
+    
+}
+.header-right{
+    /* border: 2px solid black; */
+    /* img er parent ke width diye then child img ke width deatee choto shape ashlo */
+    width: 50%;}
+.header-right  img{
+    width: 100%;}
+.playh2{
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: bold;
+    background-image: linear-gradient(rgb(249, 72, 178),
+    rgb(135, 88, 241) );
+    background-clip: text ;
+    color: transparent;
+    text-shadow: 4px 4px 5px rgb(125, 29, 145) ;
+}
+.twin{
+    text-shadow: none;
+    /* position: absolute; */
+    /* top: 34.4%; */
+    /* sometimes text-shadow didnot work so we can apply a trick  */
+}
+.headrbtnone{
+    border: none;
+    border-radius: 30px;
+padding: 10px 15px;
+/* Linear */
+background-image: linear-gradient(90.00deg, rgb(126, 10, 70) 10%,rgb(255, 66, 165) 90%);
+}
+.headrbtntwo{
+    border: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+    background-image: linear-gradient(90.00deg, rgb(125, 180, 211) 10%,rgb(13, 57, 201) 90%);
+    margin-left: 10px;
+}
+.headercontainer{
+    background-image: url(/images/Group\ 14.png);
+    background-repeat: no-repeat;
+}
+/* online game section  */
+.online{
+   
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "a b c d";
+}
+.game-1{
+grid-area: a;
+}
+.game-2{
+grid-area: b;
+}
+.game-3{
+grid-area: c;
+}
+.game-4{
+grid-area: d;
+}
+.gameimg{
+  width: 90%;
+  margin-top: 20px;  
+}
+.online , p {
+    font-size: 1.5vw;
+}
+.watchnow{
+    /* border: 2px solid rgb(255, 253, 253); */
+    width: 7vw;
+    position: relative;
+    top: -260px;
+    left: 60px;
+    text-align: center;
+}
